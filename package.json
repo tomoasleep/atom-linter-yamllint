@@ -1,0 +1,20 @@
+{
+  "name": "linter-yamllint",
+  "main": "./lib/linter-yamllint",
+  "version": "0.0.0",
+  "description": "A linter plugin to lint yaml files with yamllint",
+  "keywords": [
+  ],
+  "repository": "https://github.com/tomoasleep/linter-yamllint",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  }
+}
